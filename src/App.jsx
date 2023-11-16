@@ -1,5 +1,6 @@
 import { MathJaxContext } from "better-react-mathjax";
 import AusmittigeLaengsdruckKraft from "./page/ausmittige-längsdruckkraft/AusmittigeLaengsdruckKraft";
+import Header from "./components/header/Header";
 
 const config = {
   "fast-preview": {
@@ -25,6 +26,7 @@ function App() {
       config={config}
       onStartup={(mathJax) => (mathJax.Hub.processSectionDelay = 0)}
     >
+      <Header />
       <AusmittigeLaengsdruckKraft />
     </MathJaxContext>
   );
