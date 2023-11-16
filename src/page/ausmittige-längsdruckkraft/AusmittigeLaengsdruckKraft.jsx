@@ -1,4 +1,5 @@
 import { CssBaseline, Box, Typography, Container } from "@mui/material";
+import Berechnungsansatz from "./Berechnungsansatz";
 
 function AusmittigeLaengsdruckKraft() {
   return (
@@ -22,7 +23,9 @@ function AusmittigeLaengsdruckKraft() {
           >
             Ausmittige Längsdruckkraft
           </Typography>{" "}
-          <div></div>
+          <div>
+            <Berechnungsansatz />
+          </div>
         </Box>
       </Container>{" "}
     </>
