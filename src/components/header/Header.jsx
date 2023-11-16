@@ -3,6 +3,11 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 
+/**
+ * Renders the header component.
+ * @returns {JSX.Element} The header component.
+ */
+
 export default function Header() {
   return (
     <Box sx={{ flexGrow: 1 }}>
